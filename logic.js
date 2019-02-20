@@ -8,7 +8,7 @@ var bgcolors = [yellow, red, blue, red, black, yellow, black];
 var qcolors = [black, black, white, white, yellow, red, yellow];
 var acolors = [red, white, yellow, black, white, black, red];
 
-var random_anims = true;
+var random_anims = false;
 var possible_anims = ['slideInDown','slideInRight','slideInLeft','slideInUp'];
 
 //opportunity, good fortune, luck
