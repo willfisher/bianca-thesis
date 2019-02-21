@@ -15,8 +15,8 @@
 	
 	font-style: italic;
 	
-	border: 3px dotted #C1272D;
-	padding: 20px;
+	border: 0.3vh dotted #C1272D;
+	padding: 2vh;
 	text-align: center;
 }
 
@@ -107,7 +107,7 @@
 	
 	color: white;
 	
-	font-size: 18.46px;
+	font-size: 2.308vh;
 }
 
 .general {
@@ -118,6 +118,20 @@
 	-ms-user-select: none;
 	user-select: none;
 	cursor: default;
+}
+
+.circ {
+	height: calc(15vh + 0.6vh);
+	width: calc(15vh + 0.6vh);
+}
+
+.finalcirc {
+	height: calc(25vh + 0.6vh);
+	width: calc(25vh + 0.6vh);
+}
+
+.graphic {
+	height: 10vh;
 }
 
 #lq1:hover {
@@ -147,7 +161,7 @@
 
 #welcome {
 	color: white;
-	font-size: 20.923px;
+	font-size: 2.615vh;
 }
 
 a {
@@ -157,7 +171,7 @@ a {
 }
 
 html, body {
-	font-size: 18.46px;
+	font-size: 2vh;
 	
 	font-family: charterbt;
 	margin: 0;
